@@ -1,0 +1,358 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
+@media (max-width: 1450px) and (min-width: 1201px) {
+    #main_nav .looking_for_box {
+        max-width: 300px;
+        min-width: 338px;
+    }
+    #main_nav .categories_box:hover .categories_dropdown {
+      
+        left: -80px;
+    }
+    footer .email_address_box {
+        max-width: 300px;
+        min-width: 323px;
+    }
+    .parallax_img_box {
+        position: absolute;
+        left: 75%;
+        top: -202%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 1200px) and (min-width: 992px) {
+    #main_nav .looking_for_box {
+        max-width: auto;
+        min-width: auto;
+    }
+    .parallax_img_box {
+        left: 72%;
+        top: -201%;
+    }
+    footer .contact_info {
+        gap: 19px;
+    }
+    footer .email_address_box {
+        width: 100%;
+        max-width: auto;
+        min-width: auto;
+    }
+    #main_nav .categories_box:hover .categories_dropdown {
+        left: -160px;
+    }
+    #main_nav .categories_lookingfor_box .categories_dropdown {
+        width: 187%;
+    }
+     /* ---------------------------INDEX CSS---------------------- */
+     
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -44%;
+        bottom: -0.4%;
+        transform: scale(1.2);
+    }
+    .hero2_center_text {
+        left: 35%;
+    }
+    .owl-theme .owl-dots {
+      
+        right: 2%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+@media only screen and (min-width: 992px) {
+    
+}
+@media (max-width: 992px) and (min-width: 819px)  {
+    #main_nav .looking_for_box {
+        max-width: auto;
+        min-width: auto;
+    }
+    footer .contact_info {
+        gap: 17px;
+    }
+    footer #contact_details {
+        gap: 78px
+    }
+    footer #mobile_footer .mobile_nav_item img {
+        height: 30px;
+    }
+    footer #mobile_footer .mobile_nav_item{
+        font-size: 15px;
+       
+    }
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 600px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 420px;
+        width: 420px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 68px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -43%;
+        bottom: -0.4%;
+        transform: scale(1.2);
+    }
+    .hero2_center_text {
+        left: 38%;
+    }
+    .owl-theme .owl-dots {
+      
+        right: 2%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+    #main_nav .looking_for_box {
+        max-width: auto;
+        min-width: auto;
+    }
+    footer .contact_info {
+        gap: 17px;
+    }
+    footer #contact_details {
+        gap: 58px
+    }
+    footer #mobile_footer .mobile_nav_item img {
+        height: 29px;
+    }
+    footer #mobile_footer .mobile_nav_item{
+        font-size: 15px;
+       
+    }
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 700px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 500px;
+        width: 500px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 73px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -43%;
+        bottom: -0.4%;
+        transform: scale(1.2);
+    }
+    .hero2_center_text {
+        left: 38%;
+    }
+    .owl-theme .owl-dots {
+        right: 1%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    #topper .topper_left{
+        gap: 20px;
+    }
+    footer #contact_details {
+        gap: 15px;
+    }
+    footer .contact_info {
+        gap: 33px;
+    }
+    footer .email_address_box {
+        width: 100%;
+        max-width: auto;
+        min-width: auto;
+    }
+    footer #mobile_footer .mobile_nav_item img {
+        height: 31px;
+    }
+    footer #mobile_footer .mobile_nav_item{
+        font-size: 16px;
+       
+    }
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 600px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 450px;
+        width: 450px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 53px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -42%;
+        bottom: -0.4%;
+        transform: scale(1.1);
+    }
+    .hero2_center_text {
+        left: 37%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    footer #contact_details {
+        gap: 13px;
+    }
+    footer .contact_info {
+        gap: 31px;
+    }
+    footer #mobile_footer .mobile_nav_item img {
+        height: 30px;
+    }
+    footer #mobile_footer .mobile_nav_item{
+        font-size: 15px;
+       
+    }
+     /* ---------------------------INDEX CSS---------------------- */
+     .hero_img {
+        height: 559px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 400px;
+        width: 400px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 40px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -40%;
+        bottom: -0.4%;
+        transform: scale(1.1);
+    }
+    .hero2_center_text {
+        left: 40%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+    /* ---------------------------INDEX CSS---------------------- */
+   
+    .bottom_white_bg {
+        right: -38%;
+        bottom: -0.4%;
+    }
+    .hero2_center_text {
+        left: 42%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+    .bottom_white_bg {
+        right: -37%;
+        bottom: -0.4%;
+    }
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    #topper .topper_left{
+        gap: 6px;
+    }
+    footer #contact_details {
+        gap: 12px;
+    }
+    footer .contact_info {
+        gap: 30px;
+    }
+    footer .email_address_box {
+        width: 100%;
+        max-width: auto;
+        min-width: auto;
+    }
+    footer .copyright_box {
+        gap: 12px;
+    }
+    footer #mobile_footer .mobile_nav_item img {
+        height: 28px;
+    }
+    footer #mobile_footer .mobile_nav_item{
+        font-size: 14px;
+       
+    }
+
+    /* ---------------------------INDEX CSS---------------------- */
+    .hero_img {
+        height: 509px;
+        object-fit: cover;
+    }
+    .hero1_center_design {
+      
+        height: 300px;
+        width: 300px !important;
+        
+    }
+    .hero1_center_text h3 , .hero2_center_text h3{
+        font-size: 40px;
+    }
+    .shop_now_btn {
+        min-width: 130px;
+    }
+    .bottom_white_bg {
+        right: -36%;
+    }
+    .hero2_center_text {
+        left: 47%;
+    }
+    /* ----------------------------INDEX CSS - END--------------------------------- */
+   
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+

@@ -1,0 +1,269 @@
+.bg_lite_grey{
+    background-color: rgba(245, 245, 245, 0.904);
+}
+
+.hero_img{
+    height: 640px;
+    object-fit: cover;
+}
+.hero1_center_design{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    height: 450px;
+    width: 450px !important;
+    animation: circle 10s linear infinite;
+}
+@keyframes circle {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+.hero1_center_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: #fff;
+}
+.hero1_center_text h3{
+   font-size: 64px;
+    margin: 0;
+}
+.hero2_center_text{
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -36%);
+    color: #000;
+}
+.hero2_center_text h3{
+   font-size: 64px;
+    margin: 0;
+}
+.dark_green{
+    color: #18c018;
+}
+.rose{
+    color: #CE6477;
+}
+.owl-carousel.second .item:hover {
+    cursor: default !important;
+}
+.shop_now_btn{
+    background-color: #fff;
+    color: #000;
+    min-width: 141px;
+    max-width: 161px;
+}
+.shop_now_btn_box .shop_now_btn i{
+    display: none;
+    color: #fff;
+
+}
+.shop_now_btn_box .shop_now_btn:hover i{
+    display: inline-block;
+  
+}
+.shop_now_btn_box .shop_now_btn:hover{
+    background-color: #313f90;
+    color: #fff;
+    border: none;
+}
+.owl-nav{
+    display: none;
+}
+.bottom_white_bg{
+    position: absolute;
+    z-index: 10;
+    bottom: 0%;
+    right: -47%;
+   
+    height: 49px;
+}
+.owl-theme .owl-dots{
+    text-align: right;
+    position: absolute;
+    /* top: 0; */
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+   
+}
+.owl-theme .owl-dots .owl-dot.active span{
+    background: transparent;
+    border: 2px solid #18c018;
+    height: 13px;
+    width: 13px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    background-color: #313f90;
+}
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: transparent;
+    border: 2px solid #18c018;
+    height: 13px;
+    width: 13px;
+}
+/* ----------------------------------------------- */
+
+#short_snacks .snack_box{
+    height: 250px;
+    width: 230px;
+}
+
+#short_snacks .snack_box:hover .snack_img{
+    transform: scale(1.15);
+}
+#short_snacks .snack_box:hover .snack_count_number{
+    background-color: #50f0a3;
+    color: #fff;
+}
+#short_snacks .rounded_snack_bg{
+    height: 115px;
+    width: 115px;
+    
+}
+.bg_brown{
+    background-color: #dfdcb0;
+}
+.bg_light_green{
+    background-color:  #daee9d;
+}
+.bg_light_dark_green{
+    background-color:  #c5edd4;
+}
+.bg_light_yellow{
+    background-color: #feef9e;
+}
+.bg_light_orange{
+    background-color:#ffd4a3;
+}
+.bg_rose{
+    background-color: #CE6477;
+}
+#short_snacks .snack_box:hover .hover-underline-animation::after {
+    transform: scaleX(1);
+  }
+
+#short_snacks .snack_img{
+    height: 170px;
+    width: 140px;
+    top: 9%;
+    left: 19%;
+
+}
+#short_snacks .snack_count_number{
+    height: 35px;
+    width: 35px;
+    background: rgb(233, 233, 233);
+    color: rgb(138, 138, 138);
+
+}
+
+
+
+/* ----------------------------------- */
+.backside{
+    position: relative;
+    height: 300px;
+    border-radius: 20px !important;
+    width: 460px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imageover{
+    height: 300px;
+    width: 460px;
+    overflow: hidden;
+    background-position: center;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.backside:hover .imageover {  
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2); /* IE 9 */ 
+    transform: scale(1.1);
+  } 
+ .backside:hover .shopbutton{
+    background-color: #50F0A3 !important;
+    columns: black !important;
+ }
+ .backside button .fa-arrow-right{
+    transition: visibility 0s, opacity 0.5s linear;
+ }
+ .backside button:hover .fa-arrow-right{
+    display: block !important;
+ }
+ #clients h2{
+    color:#2C3881;
+ }
+ /* ----------------------------------------- */
+
+
+ #clients h2{
+    color:#2C3881;
+ }
+ #clients .row img{
+    background-color:rgb(242 244 245);
+    /* border-radius: 15px; */
+    height: 120px;
+    width: 220px;
+    transition: 0.1s !important;
+ }
+ #clients .row img:hover{
+    background-color:white;
+    transform: scale(0.9);
+ }
+ #clients .row .col-12 .text-end a:hover{
+  color :rgb(7, 180, 99);
+ }
+
+ /* -------------------------------------- */
+
+
+ .backsidee{
+    position: relative;
+    height:370px;
+    border-radius: 20px !important;
+    width: 700px; 
+    overflow: hidden;
+    cursor: pointer;
+}
+.imageoverr{
+    height: 370px;
+    width: 700px;
+    overflow: hidden;
+    background-position: center;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.backsidee:hover .imageoverr {  
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2); /* IE 9 */ 
+    transform: scale(1.1);
+  } 
+ .backsidee:hover .shopbutton{
+    background-color: #50F0A3 !important;
+    columns: black !important;
+ }
+ .backsidee button .fa-arrow-right{
+    transition: visibility 0s, opacity 0.5s linear;
+ }
+ .backsidee button:hover .fa-arrow-right{
+    display: block !important;
+ }
