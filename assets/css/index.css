@@ -164,6 +164,23 @@
     color: rgb(138, 138, 138);
 
 }
+/* ----------------------------------- */
+/* ------------shop our top sellers------------------------- */
+#top_sellers .shop_title , #top_sellers .view_more{
+    color:#2C3881;
+}
+#top_sellers .view_more:hover{
+    color :rgb(7, 180, 99);
+}
+#top_sellers .icon_box{
+   height: 40px;
+   width: 40px;
+}
+#top_sellers .icon_box:hover{
+    -webkit-box-shadow: 0px 0px 94px 1px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 0px 94px 1px rgba(0,0,0,0.38);
+box-shadow: 0px 0px 94px 1px rgba(0,0,0,0.38);
+}
 
 
 
@@ -196,7 +213,7 @@
   } 
  .backside:hover .shopbutton{
     background-color: #50F0A3 !important;
-    columns: black !important;
+    color: black !important;
  }
  .backside button .fa-arrow-right{
     transition: visibility 0s, opacity 0.5s linear;
@@ -266,4 +283,110 @@
  }
  .backsidee button:hover .fa-arrow-right{
     display: block !important;
+ }
+ /* ----------------------------------------------- */
+ #slider .infordate{
+    border-top-right-radius: 17px;
+    background-color: white;
+ }
+ /* ---------------------------------- */
+ .recipe_title{
+     color: #000;
+     transition: 0.1s !important;
+     /* font-size: 24px; */
+ }
+ .recipe_title h4{
+    font-size: 22px;
+    font-weight: 700;
+ }
+ .recipe_title:hover{
+     color: #50f0a3;
+ }
+ .star_review{
+     width: 95px !important;
+     height: 30px;
+ }
+ /* ----------------------------- */
+ #new_savings .new_saving_title{
+     color: #2C3881;
+ }
+ #new_savings .view_more{
+     color: #2C3881;
+ }
+ #new_savings .view_more:hover{
+     color: #50f0a3;
+ }
+ #new_savings .nav-pills .nav-item .nav-link{
+     background-color: rgb(242 244 245);
+     border-radius: 20px;
+     color: #2C3881 !important;
+
+ }
+ #new_savings .nav-pills .nav-item .active{
+     background-color: #50f0a3;
+     border-radius: 20px;
+     color: #2C3881 !important;
+ }
+ /* ------------------------------------------- */
+
+ #shopin-season .row{
+    background-color: rgb(242 244 245);
+    border-radius: 17px;
+  }
+  #shopin-season h1{
+    color:#2C3881;
+  }
+  #shopin-season .shopbutton{
+    background-color: #2C3881;
+  }
+ #shopin-season .shopbutton:hover .fa-arrow-right{
+    display: block !important;
+ }
+ #shopin-season img{
+    object-fit: cover;
+    border-radius: 17px;
+    /* border-bottom-right-radius: 17px; */
+ }
+ #shopin-season button{
+    background-color: rgb(215, 8, 115);
+    border: 2px solid white;
+ }
+ 
+ #shopin-season .button1{
+    margin-left: 70px;
+ }
+ /* ----------------------------------- */
+ .featured{
+    width: 340px;
+    border-radius: 17px;
+ }
+ #featurereview .col-3 p{
+    font-size: 13px;
+ }
+ #featurereview .col-3 span{
+    color:#2C3881;
+ }
+ #featurereview .col-3 i{
+  font-size: 12px;
+  margin-right: 2px;
+  color: #50F0A3;
+ }
+ #featurereview .feature_title{
+     color: #2C3881;
+ }
+ /* ---------------------------------- */
+ #order_now .groceries_delivery_box{
+     background-image: url(../images/index/h1_img-2.png);
+     background-repeat: no-repeat;
+     background-position: center right;
+ }
+ #order_now .groceries_delivery_box .order_now_btn{
+    background-color: #313f90;
+    color: #fff;
+ }
+ #order_now .groceries_delivery_box .order_now_btn i{
+    display: none;
+ }
+ #order_now .groceries_delivery_box .order_now_btn:hover i{
+    display: inline-block;
  }
