@@ -167,8 +167,8 @@ body{
 #secondary_nav .btn-group .show {
     color: #50f0a3;
 }
-#secondary_nav .pages:hover .dropdown-toggle{
-    color: #50f0a3 ;
+#secondary_nav .pages:hover .dropdown-toggle,.nav-link:hover{
+    color: #50f0a3;
 }
 #secondary_nav .btn-group .dropdown-toggle{
     height: 40px;
@@ -359,13 +359,14 @@ footer #mobile_footer .mobile_nav_item img{
   }
 
   /* --------------- */
-   .item:hover{
+ .item:hover{
       cursor: grab;
   }
-   .nav-pills .nav-link{
+  .nav-pills .nav-link{
       color: rgb(117, 117, 117) !important;
   }
-   .nav-pills .nav-link.active{
+ 
+  .nav-pills .nav-link.active{
       background: transparent;
       color: #000 !important;
   }
@@ -391,7 +392,7 @@ footer #mobile_footer .mobile_nav_item img{
    
     border: none;
 }
- .tab-pane li a{
+.tab-pane li a{
     color: rgb(56, 56, 56) !important;
 }
 #collapseFour .accordion-body li{
@@ -584,11 +585,10 @@ footer #mobile_footer .mobile_nav_item img{
         gap: 12px;
     }
     footer #mobile_footer .mobile_nav_item img {
-        height: 28px;
+        height: 25px;
     }
-    footer #mobile_footer .mobile_nav_item{
-        font-size: 14px;
-       
+    footer #mobile_footer .mobile_nav_item {
+        font-size: 12px;
     }
 
    
